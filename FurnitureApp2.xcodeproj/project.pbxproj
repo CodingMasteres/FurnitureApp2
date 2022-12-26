@@ -11,6 +11,7 @@
 		84D9CDFA295A1007004FC56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9CDF9295A1007004FC56B /* ContentView.swift */; };
 		84D9CDFC295A100A004FC56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D9CDFB295A100A004FC56B /* Assets.xcassets */; };
 		84D9CDFF295A100A004FC56B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D9CDFE295A100A004FC56B /* Preview Assets.xcassets */; };
+		84D9CE07295A150C004FC56B /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9CE06295A150C004FC56B /* Signin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		84D9CDF9295A1007004FC56B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84D9CDFB295A100A004FC56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D9CDFE295A100A004FC56B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84D9CE06295A150C004FC56B /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		84D9CDF6295A1007004FC56B /* FurnitureApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				84D9CE05295A14DF004FC56B /* Views */,
 				84D9CDF7295A1007004FC56B /* FurnitureApp2App.swift */,
 				84D9CDF9295A1007004FC56B /* ContentView.swift */,
 				84D9CDFB295A100A004FC56B /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				84D9CDFE295A100A004FC56B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84D9CE05295A14DF004FC56B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84D9CE06295A150C004FC56B /* Signin.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				84D9CDFA295A1007004FC56B /* ContentView.swift in Sources */,
 				84D9CDF8295A1007004FC56B /* FurnitureApp2App.swift in Sources */,
+				84D9CE07295A150C004FC56B /* Signin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
